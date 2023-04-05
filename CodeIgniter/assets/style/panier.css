@@ -1,0 +1,235 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.corpsPanier {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 10% 20%;   
+}
+
+/* quand l'écran est plus petit que 1320px de large */
+@media only screen and (max-width: 1320px)  {
+    .corpsPanier {
+        display: flex;
+        flex-direction: column-reverse  ;       
+    }
+
+    .total {
+        padding: 3%;
+        width: 100%;
+    }
+
+    .panier {
+        width: 100%;
+        margin: 5% auto;
+    }
+}
+
+/* quand l'écran est plus grand que 1320px de large */
+@media only screen and (min-width: 1320px) {
+    .total {
+        height: 320px;
+        padding: 2%;
+    }
+    
+    .panier {
+        min-height: 300px;
+        width: 60%;
+    }
+}
+
+
+/* Partie gauche */
+.panier {
+    min-height: 320px;
+    background-color: white;
+    padding: 3%;
+}
+
+.emptyCart {
+    margin-top: 18%;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.panier hr {
+    opacity: 40%;
+}
+
+.Article {
+    display: flex;
+
+    margin-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;    
+}
+
+.ArticleInfo {
+    width: 650px;
+    height: 5%;
+
+    margin-left: 2%;
+}
+
+.ArticleInfoDescription {
+    font-weight: 320;
+}
+
+.Article img {
+    width: 35%;
+    height: 35%;
+}
+
+.quantity {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.quantity input {
+    margin-left: 10%;
+    height: 25px;
+    width: 37px;
+}
+
+.ArticleInfoHaut {
+    display: flex;
+    justify-content: space-between;
+
+    align-self: center;
+}
+
+.ArticleInfoHaut button {
+    height: 20%;
+    background: none;
+    border: none;
+}
+
+.ArticleInfoHaut button:hover {
+    cursor: pointer;
+}
+
+.ArticleInfoBas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+    flex-flow: row wrap;
+}
+
+.ArticleInfoTextePageProduit {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+/* Partie droite */
+.total {
+    background-color: white;
+}
+
+.totalCorps {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.totalTexte {
+    font-weight: 320;
+}
+
+.totalTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalNombre {
+    text-align: end;
+}
+
+
+.totalButton {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+.totalInput {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+.totalInput:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.totalInputDisabled {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+
+    background-color: #6a6a6a;
+    color: white;
+    opacity: 30%;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+.ArticleInfoTitrePrix {
+    margin: 0;
+    font-size: large;
+    font-weight: 600;
+}
+
+.littleText {
+    font-size: small;
+    font-style: italic;
+    font-weight: 320;
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne1 button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.ligne1 button p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

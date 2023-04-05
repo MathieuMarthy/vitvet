@@ -1,0 +1,112 @@
+body {
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.boxContactTout {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 30% 12% 30%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: fit-content;
+}
+
+.boxContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boxForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContact {
+    display: grid;
+    grid-template-rows: 10px 1fr 10px 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.prenom {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.casePrenom {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: large;
+}
+
+.nom {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.caseNom {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: large;
+}
+
+.email {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.caseEmail {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: large;
+}
+
+.message {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.caseMessage {
+    grid-column: 1 / 4;
+    grid-row: 4;
+    writing-mode: horizontal-tb;
+    text-align: start;
+    resize: none;
+    font-size: large;
+}
+
+.envoi {
+    grid-column: 3;
+    grid-row: 5;
+
+    margin-left: auto;
+
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+
+
+.envoi:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,197 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.corpsCommande {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 10% 20%;   
+}
+
+/* quand l'écran est plus petit que 1320px de large */
+@media only screen and (max-width: 1320px)  {
+    .corpsCommande {
+        display: flex;
+        flex-direction: column-reverse  ;       
+    }
+
+    .total {
+        padding: 3%;
+        width: 100%;
+    }
+
+    .commande {
+        width: 100%;
+        margin: 5% auto;
+    }
+}
+
+/* quand l'écran est plus grand que 1320px de large */
+@media only screen and (min-width: 1320px) {
+    .total {
+        height: 250px;
+        padding: 1.5%;
+    }
+    
+    .commande {
+        min-height: 300px;
+        width: 60%;
+    }
+}
+
+
+/* Partie gauche */
+.commande {
+    min-height: 320px;
+    background-color: white;
+    padding: 3%;
+}
+
+.emptyCart {
+    margin-top: 18%;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.commande hr {
+    opacity: 40%;
+}
+
+.Article {
+    display: flex;
+
+    margin-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;    
+}
+
+.ArticleInfo {
+    width: 650px;
+    height: 5%;
+
+    margin-left: 2%;
+}
+
+.ArticleInfoDescription {
+    font-weight: 320;
+}
+
+.Article img {
+    width: 35%;
+    height: 35%;
+}
+
+.quantity {
+    min-width: 200px;
+}
+
+.quantity p {
+    margin: 0;
+}
+
+
+.ArticleInfoHaut {
+    display: flex;
+    justify-content: space-between;
+
+    align-self: center;
+}
+
+.ArticleInfoHaut button {
+    height: 20%;
+    background: none;
+    border: none;
+}
+
+.ArticleInfoHaut button:hover {
+    cursor: pointer;
+}
+
+.ArticleInfoBas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ArticleInfoTextePageProduit {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+/* Partie droite */
+.total {
+    background-color: white;
+}
+
+.totalCorps {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.totalTexte {
+    font-weight: 320;
+}
+
+.totalTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalNombre {
+    text-align: end;
+}
+
+
+.totalButton {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+.ArticleInfoTitrePrix {
+    margin: 0;
+    font-size: large;
+    font-weight: 600;
+}
+
+.littleText {
+    font-size: small;
+    font-style: italic;
+    font-weight: 320;
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bouton {
+    text-align: center;
+    
+    height: 50px;
+    width: 175px;
+    font-size: 17px;
+    margin-bottom: 5%;
+    
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+
+.bouton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

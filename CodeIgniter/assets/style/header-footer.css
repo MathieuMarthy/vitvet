@@ -1,0 +1,280 @@
+/* header */
+:root {
+    --main-link-hover-color: rgb(194, 103, 5);
+    --body-1: #e2e2e2;
+}
+
+body {
+    margin: 0px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--main-link-hover-color);
+}
+
+header a {
+    transition: transform .3s;
+}
+
+header a:hover {
+    transform: scale(1.1);
+}
+
+.liHeader {
+    transition: transform .3s;
+}
+
+.liHeader:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+h6 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.headerLogoTexte {
+    text-align: center;
+    text-decoration: none;
+
+    padding-top: 7px;
+}
+
+.headerLogo {
+    width: 150px;
+}
+
+.headerLiens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 25px;
+    margin-right: 15px;
+
+    font-weight: 360;
+}
+
+.headerPanier {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.headerPanier p{
+    margin: 0;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.material-symbols-outlined {
+    align-self: center;
+}
+
+
+.headerImagePanier {
+    fill: black;
+}
+
+.headerImagePanier:hover {
+    fill: var(--main-link-hover-color);
+}
+
+.menuDeroulant {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    
+    margin-top: 140px;
+    padding: 0% 1.5%;
+    padding-bottom: 0.5%;
+
+    z-index: 2;
+}
+
+.categories {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 45px;
+}
+
+.categories > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.categories:hover ul {
+    display: block;
+    background-color: white;
+}
+
+.menuDeroulant li {
+    margin-top: 10%;
+}
+
+/* Fin Header */
+
+/* footer */
+.haut {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 3%;
+    background-color: #f1f1f1;
+}
+
+.haut img {
+    margin-bottom: 12%;
+
+    width: 75px;
+    height: 75px;
+}
+
+.haut p {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bas {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+    margin-bottom: -50px;
+    padding-top: 1%;
+
+    border-top: 1px black;
+}
+
+.coordonnées {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    width: 49.5%;
+}
+
+.lieux {
+    align-self: self-end;
+    margin-bottom: 2%;
+}
+
+.contactFooter {
+    align-self: self-end;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.aide {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    width: 49.5%;
+}
+
+.traitFooter {
+    display: flex;
+    border-right: 2px solid black;
+    height: 150px;
+    margin-bottom: 0.8%;
+    align-self: center;
+}
+
+.conditionsFooter {
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+/* fin footer */
+
+
+.backToTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    padding-top: 2px;
+    border: 1px solid black;
+    background-color: white;
+
+    font-size: 35px;
+    text-align: center;
+    
+    right: 10px;
+    bottom: 10px;
+    transition: transform .3s;
+}
+
+.backToTop:hover {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    padding-top: 2px;
+    border: 1px solid black;
+    background-color: white;
+
+    font-size: 35px;
+    text-align: center;
+    
+    right: 10px;
+    bottom: 10px;
+    transform: scale(1.1);
+}
+
+.backToTop:hover {
+    cursor: pointer;
+}

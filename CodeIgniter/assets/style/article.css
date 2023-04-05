@@ -1,0 +1,59 @@
+body {
+    background-color: #E2E2E2;
+}
+
+.descriptionArticle {
+    margin-top: -2%;
+}
+
+.boxArticle {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 6.6% 20%;
+    border-radius: 25px;
+    height: 25%;
+    background-color: white;
+
+    padding: 3.5% 0%;
+}
+
+.imgArticle {
+    margin: 5% 5% 5%;
+    border-radius: 15px;
+    width: 360px;
+    height: 400px;
+}
+
+.boxCorpsGauche{
+    margin-left: 10%;
+}
+
+.boxCorpsDroite {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputQuantiteArticle {
+    width: 17%;
+}
+
+.ajouterPanier {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    font-size: 15px;
+
+    transition: all 0.3s ease;
+}
+
+.ajouterPanier:hover {
+    background-color: var(--main-link-hover-color);
+    border: solid var(--main-link-hover-color);
+}

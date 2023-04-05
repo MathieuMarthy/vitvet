@@ -1,0 +1,149 @@
+body {
+    background-size: 100%;
+    padding-top: -20px;
+    padding-bottom: -20px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.boxCreerCompteTout {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 30% 5% 30%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    margin-bottom: 12%;
+    background-color: white;
+}
+
+.boxCreerCompte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.formCompte {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-template-rows: 10px 1fr 10px 1fr 10px 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.nom {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.case_nom {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: large;
+}
+
+.prenom {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.case_prenom {
+    grid-column: 3;
+    grid-row: 2;
+    writing-mode: horizontal-tb;
+    text-align: start;
+    resize: none;
+}
+
+.mot_de_passe {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.case_mdp {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.conf_mdp {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.case_conf {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.creer_adresse {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.case_adresse {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.departement_choix {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.nombre_dpt {
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.retour {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.envoi_creation {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.bouton {
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+
+
+.bouton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.case_nom, .case_prenom, .case_mdp, .case_conf, .case_adresse, .nombre_dpt {
+    padding: 5% 0%;
+    border: 0px;
+    font-size: 17px;
+    border-bottom: solid 1px black;
+}
+
+.case_nom, .case_mdp, .case_conf, .case_prenom, .case_adresse, .nombre_dpt:focus{
+	outline: none; 
+}
+

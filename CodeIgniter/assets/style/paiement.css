@@ -1,0 +1,338 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.corpsPanier {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 10% 20%;   
+}
+
+/* quand l'écran est plus petit que 1250 de large */
+@media only screen and (max-width: 1320px)  {
+    .corpsPanier {
+        display: flex;
+        flex-direction: column-reverse  ;       
+    }
+
+    .total {
+        padding: 3%;
+        width: 100%;
+    }
+
+    .panier {
+        width: 100%;
+        margin: 5% auto;
+    }
+}
+
+/* quand l'écran est plus grand que 1250 de large */
+@media only screen and (min-width: 1320px) {
+    .total {
+        height: 260px;
+        padding: 2%;
+    }
+    
+    .panier {
+        min-height: 300px;
+        width: 60%;
+    }
+}
+
+
+
+/* Partie gauche */
+.panier {
+    min-height: 320px;
+    background-color: white;
+    padding: 3%;
+}
+
+.panier hr{
+    opacity: 40%;
+}
+
+.Article {
+    display: flex;
+
+    margin-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;    
+}
+
+.ArticleInfo {
+    width: 650px;
+    height: 5%;
+
+    margin-left: 2%;
+}
+
+.ArticleInfoDescription {
+    font-weight: 320;
+}
+
+.Article img{
+    width: 35%;
+    height: 35%;
+}
+
+.quantity {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.quantity input{
+    margin-left: 10%;
+    height: 25px;
+    width: 37px;
+}
+
+.ArticleInfoHaut {
+    display: flex;
+    justify-content: space-between;
+
+    align-self: center;
+}
+
+.ArticleInfoBas {
+    display: flex;
+    justify-content: space-between;
+
+    flex-flow: row wrap;
+}
+
+.ArticleInfoTextePageProduit {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+.ArticleInfoTextePageProduit span {
+    margin-top: 13%;
+}
+
+/* Partie droite */
+.total {
+    background-color: white;
+}
+
+.totalCorps {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.totalTexte {
+    font-weight: 320;
+}
+
+.totalTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalNombre {
+    text-align: end;
+}
+
+
+.totalButton {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+.total input {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+.total input:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.ArticleInfoTitrePrix {
+    margin: 0;
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.littleText {
+    font-size: small;
+    font-style: italic;
+    font-weight: 320;
+}
+
+/* Box création compte */
+
+body {
+    background-color: #e2e2e2;
+    background-size: 100%;
+}
+
+.boxCreerCompte {
+    display: flex;
+    flex-direction: column;
+    margin: 8% 30% 3% 30%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.boxCreerCompteHaut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.boxFormCompte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.grille{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.nom {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.caseNom {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.prenom {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.casePrenom {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.mail {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.caseMail {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+.adresse {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.caseAdresse {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.departement {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.choixDepartement {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.numCarte {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.caseNumCarte {
+    grid-column: 1/3;
+    grid-row: 8;
+}
+
+.dateDexpiration {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+.caseDate {
+    grid-column: 1;
+    grid-row: 10;
+}
+
+.cvv {
+    grid-column: 2;
+    grid-row: 9;
+}
+
+.caseCVV {
+    grid-column: 2;
+    grid-row: 10;
+}
+
+.bouton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bouton .envoi {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    margin: -2% 0% 2% 0%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+
+.bouton a {
+    display: contents;
+}
+
+.envoi:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.caseId, .caseMdp, .caseNom, .casePrenom, .caseMail, .caseAdresse, .choixDepartement, .caseNumCarte, .caseDate, .caseCVV {
+    padding: 2% 0%;
+    border: 0px;
+    font-size: large;
+    border-bottom: solid 1px black;
+}
+
+.caseId, .caseMdp, .caseNom, .casePrenom, .caseMail, .caseAdresse, .choixDepartement, .caseNumCarte, .caseDate, .caseCVV:focus{
+	outline: none;
+}

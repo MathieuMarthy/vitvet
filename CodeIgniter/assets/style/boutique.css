@@ -1,0 +1,9 @@
+.barreDeRecherche {
+    width: 35%;
+    height: 40px;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: solid 2px black;
+}

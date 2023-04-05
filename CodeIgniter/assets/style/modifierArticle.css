@@ -1,0 +1,119 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.listArticles {
+    padding: 2%;
+    margin: 10% 25%;
+
+    background-color: white;
+}
+
+.listArticles hr{
+    opacity: 40%;
+}
+
+.titre {
+    font-weight: 350;
+}
+
+.listArticles img {
+    width: 25%;
+    height: 25%;
+}
+
+.Article {
+    display: flex;
+
+    margin: 2% 0%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.ArticleInfo {
+    width: 650px;
+    height: 5%;
+
+    margin-left: 2%;
+}
+
+.ArticleInfoTitrePrix {
+    display: flex;
+    flex-direction: column;
+}
+
+.ArticleInfoTitrePrix input{
+    width: 25%;
+    height: 25px;
+
+}
+
+.ArticleInfoDescription {
+    font-weight: 320;
+}
+
+.Article img{
+    width: 35%;
+    height: 35%;
+}
+
+.ArticleInfoInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.ArticleInfoInfo p{
+    margin: 3%;
+    width: 100%;
+}
+
+.ArticleInfoInfo input{
+    margin-left: 10%;
+    height: 25px;
+    width: 37px;
+}
+
+/* .ArticleInfoHaut {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+} */
+
+.ArticleInfoBas {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.ArticleInfoBoutons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bouton {
+    text-align: center;
+    
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    margin-bottom: 5%;
+    
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+
+.bouton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

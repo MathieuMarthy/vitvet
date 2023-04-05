@@ -1,0 +1,164 @@
+body {
+    background-size: 100%;
+    padding-top: -20px;
+    padding-bottom: -20px;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto 8% auto;
+    padding: 2%;
+    width: 150%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.boxInfosCompte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.formCompte {
+    display: grid;
+    grid-template-columns: 1fr 7% 1fr;
+    grid-template-rows: 10px 10% 10px 10% 10px 10% 1fr;
+    grid-gap: 20px;
+} 
+
+.login{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.case_login {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.email {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.case_email{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.nom {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.case_nom{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.prenom {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.case_prenom{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.adresse {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.case_adresse{
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.departement_choix{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.nombre_dpt{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.suppression{
+    grid-column: 1;
+    grid-row: 7;
+    margin-right: auto;
+}
+
+.modification{
+    grid-column: 3;
+    grid-row: 7;
+    margin-left: auto;
+}
+.commande {
+    display: flex;
+    justify-content: end;
+}
+
+.boutonCommande{
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+
+.change_infos{
+    margin-top: 10%;
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+
+.change_infos:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.boutonCommande:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.case_login, .case_nom, .case_prenom, .case_email, .case_adresse, .nombre_dpt{
+    padding: 3% 0%;
+    border: 0px;
+    font-size: 17px;
+}
+
+.case_login, .case_nom, .case_prenom, .case_email, .case_adresse, .nombre_dpt:focus{
+	outline: none; 
+}
