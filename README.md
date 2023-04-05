@@ -1,4 +1,11 @@
 # equipe2-0
 
-IP: 172.26.82.55
-Pass: 123456789
+Ce projet à été réalisé en deuxième année de BUT INFO par :
+- Pacôme CAILLETEAU
+- Nicolas CHUSSEAU
+- Mathieu MARTY
+- Nolan VANDEMEULEBROUCKE
+
+L'objectif était de construire en partant de 0 une boutique de vente en ligne.
+
+
