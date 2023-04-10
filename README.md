@@ -6,6 +6,6 @@ Ce projet à été réalisé en deuxième année de BUT INFO par :
 - Mathieu MARTHY
 - Nolan VANDEMEULEBROUCKE
 
-L'objectif était de construire en partant de 0 une boutique de vente en ligne.
+L'objectif était de construire en partant de 0 une boutique de vente en ligne. 
 
 
