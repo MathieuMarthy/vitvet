@@ -1,4 +1,4 @@
-# equipe2-0
+# VitVet
 
 Ce projet à été réalisé en deuxième année de BUT INFO par :
 - Pacôme CAILLETEAU
