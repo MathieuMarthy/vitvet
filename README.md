@@ -8,4 +8,3 @@ Ce projet à été réalisé en deuxième année de BUT INFO par :
 
 L'objectif était de construire en partant de 0 une boutique de vente en ligne. 
 
-
